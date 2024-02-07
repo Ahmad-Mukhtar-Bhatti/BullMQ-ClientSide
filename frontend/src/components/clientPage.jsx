@@ -1,13 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
+import { Box } from "@material-ui/core";
+import "./clientPage.css";
+
+import ProgressBar from "@ramonak/react-progress-bar";
 
 const WebSocketClient = () => {
-  const clientId = "Client1ets";
-  const idRef = useRef(0).current;
   const socketRef = useRef(null);
 
-  const [totprogress, setProgress] = useState("30");
+  const [totprogress, setProgress] = useState("00");
+  const [showBar, setShowBar] = useState(false);
+  const [showBox, setShowBox] = useState(false);
+  const [totalTasks, setTotalTasks] = useState(0);
+  const [failed, setFailed] = useState(false);
 
   // Recieving client name from login page
   const location = useLocation();
@@ -19,16 +25,15 @@ const WebSocketClient = () => {
   //   // Handle the case where state is not present (e.g., direct URL visit)
   //   return <div>No data received</div>;
   // }
-  
-  const { clientName, name, appName} = state;
+
+  const { clientName, name, appName } = state;
 
   useEffect(() => {
     // Access clientName and use it in your WebSocket logic
-    console.log('Received clientName:', clientName, name, appName);
+    console.log("Received clientName:", clientName, name, appName);
 
     // Your WebSocket logic here
   }, [clientName]);
-
 
   useEffect(() => {
     // Initialize WebSocket connection
@@ -48,8 +53,25 @@ const WebSocketClient = () => {
       const prog = Number(
         String(event.data).substring(event.data.length - 3, event.data.length)
       );
-      console.log("reccc", String(prog));
-      setProgress(prog);
+      if (event.data == "Your Job has failed!") {
+        setFailed(true);
+        setTotalTasks(totalTasks - 1);
+      }
+      // console.log("reccc", String(prog));
+      if (!isNaN(prog)) {
+        setProgress(prog);
+      }
+
+      if (prog === 100) {
+        if (totalTasks <= 1) {
+          setTimeout(() => {
+            setShowBar(false);
+            setProgress(0);
+          }, 1000);
+          setShowBox(false);
+        }
+        setTotalTasks(totalTasks - 1);
+      }
 
       if (prog === 0) setProgress(0);
     });
@@ -60,11 +82,15 @@ const WebSocketClient = () => {
         socketRef.current.close();
       }
     };
-  }, [clientName]);
+  }, [clientName, totalTasks]);
 
   // Send a message to the server
   const sendMessage = async () => {
     console.log("Data Sent!");
+    setShowBar(true);
+    setTimeout(() => setShowBox(true), 1000);
+    setTotalTasks(totalTasks + 1);
+
     const tasks = Array.from({ length: 10 }, () => ({
       user: name,
       appID: appName,
@@ -89,24 +115,6 @@ const WebSocketClient = () => {
     }
   };
 
-  // const sendMessage = () => {
-  //   console.log("Data Sent!");
-  //   const tasks = Array.from({ length: 10 }, () => ({
-  //     user: "Client1",
-  //     appID: "ets",
-  //     totalData: "10",
-  //     batchID: idRef.current,
-  //     data: "",
-  //   }));
-
-  //   if (socketRef.current.readyState === WebSocket.OPEN) {
-  //     socketRef.current.send(JSON.stringify(tasks));
-  //     idRef.current = idRef.current + 1;
-  //   } else {
-  //     console.error("WebSocket connection not open.");
-  //   }
-  // };
-
   return (
     <>
       <h1>Client Page</h1>
@@ -125,7 +133,7 @@ const WebSocketClient = () => {
       <br />
       <br />
 
-      <progress
+      {/* <progress
         className="progress"
         value={totprogress}
         max="100"
@@ -134,6 +142,33 @@ const WebSocketClient = () => {
         {" "}
         totprogress
       </progress>
+      <br />
+      <br /> */}
+
+      {showBar && (
+        <div className="cp-bottombox">
+          {totalTasks > 1 && (
+            <Box className="cp-pendingbox">
+              <h3>{totalTasks - 1} Pending Tasks</h3>
+            </Box>
+          )}
+          {!failed && (
+            <Box className={`cp-progress ${showBox ? "visible" : ""}`}>
+              <h3>JOB PROGRESS</h3>
+              <ProgressBar
+                animateOnRender={true}
+                bgColor={"#3e6296"}
+                completed={totprogress}
+              />
+            </Box>
+          )}
+          {failed && (
+            <Box className={`cp-failedbox`}>
+              <h3>JOB FAILED!</h3>
+            </Box>
+          )}
+        </div>
+      )}
     </>
   );
 };
