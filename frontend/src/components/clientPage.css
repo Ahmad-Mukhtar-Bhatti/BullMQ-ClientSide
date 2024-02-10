@@ -32,6 +32,18 @@
   padding: 5%;
 }
 
+/* .cp-failedbox.nonvisible {
+  transform: translateY(150%); 
+  transition: transform 1s ease-in-out;
+  background-color: rgb(171, 8, 8);
+} */
+
+.cp-failedCountBox {
+  background-color: rgb(171, 8, 8);
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
 .cp-pendingbox {
   /* height: 5%; */
   border-radius: 10px;

@@ -13,7 +13,11 @@ const WebSocketClient = () => {
   const [showBar, setShowBar] = useState(false);
   const [showBox, setShowBox] = useState(false);
   const [totalTasks, setTotalTasks] = useState(0);
+
   const [failed, setFailed] = useState(false);
+  const [failedTasks, setFailedTasks] = useState(0);
+
+  const [id, setId] = useState(0);
 
   // Recieving client name from login page
   const location = useLocation();
@@ -47,6 +51,14 @@ const WebSocketClient = () => {
       console.log("Connected to server");
     });
 
+    socketRef.current.addEventListener("error", (err) => {
+      console.log("Error connecting", err);
+    });
+
+    // socketRef.current.addEventListener("close", () => {
+    //   console.log("WebServer is closed");
+    // });
+
     // Listen for messages from the server
     socketRef.current.addEventListener("message", (event) => {
       console.log(`Received from server: ${event.data}`);
@@ -55,10 +67,16 @@ const WebSocketClient = () => {
       );
       if (event.data == "Your Job has failed!") {
         setFailed(true);
+        setFailedTasks(failedTasks + 1);
         setTotalTasks(totalTasks - 1);
+        console.log("Check on fail", totalTasks);
+        if (totalTasks <= 1) {
+          setShowBox(false);
+        }
       }
       // console.log("reccc", String(prog));
       if (!isNaN(prog)) {
+        setTimeout(() => setFailed(false), 2000);
         setProgress(prog);
       }
 
@@ -86,6 +104,8 @@ const WebSocketClient = () => {
 
   // Send a message to the server
   const sendMessage = async () => {
+    setId(id + 1);
+
     console.log("Data Sent!");
     setShowBar(true);
     setTimeout(() => setShowBox(true), 1000);
@@ -96,7 +116,7 @@ const WebSocketClient = () => {
       appID: appName,
       totalData: "10",
       // batchID: idRef,
-      batchID: 100,
+      batchID: id,
       data: "",
     }));
 
@@ -147,6 +167,11 @@ const WebSocketClient = () => {
 
       {showBar && (
         <div className="cp-bottombox">
+          {failedTasks > 0 && (
+            <Box className="cp-failedCountBox">
+              <h3>{failedTasks} Failed Tasks</h3>
+            </Box>
+          )}
           {totalTasks > 1 && (
             <Box className="cp-pendingbox">
               <h3>{totalTasks - 1} Pending Tasks</h3>
@@ -163,7 +188,7 @@ const WebSocketClient = () => {
             </Box>
           )}
           {failed && (
-            <Box className={`cp-failedbox`}>
+            <Box className={`cp-failedbox ${showBox ? "nonvisible" : ""}`}>
               <h3>JOB FAILED!</h3>
             </Box>
           )}
