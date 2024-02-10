@@ -153,18 +153,6 @@ const WebSocketClient = () => {
       <br />
       <br />
 
-      {/* <progress
-        className="progress"
-        value={totprogress}
-        max="100"
-        style={{ width: "400px", height: "40px" }}
-      >
-        {" "}
-        totprogress
-      </progress>
-      <br />
-      <br /> */}
-
       {showBar && (
         <div className="cp-bottombox">
           {failedTasks > 0 && (
