@@ -5,15 +5,13 @@
   width: 30%;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
 .cp-progress {
-  /* border: 3px solid rgb(50, 103, 69); */
-  /* width: 100%; */
   height: auto;
   border-radius: 15px;
   background-color: rgb(105, 156, 113);
   padding: 4%;
   padding-top: 1%;
-  /* box-shadow: 5px 5px 5px rgb(74, 42, 42); */
 
   transform: translateY(150%); /* Initially off-screen */
   transition: transform 1s ease-in-out;
@@ -29,14 +27,13 @@
 .cp-failedbox {
   background-color: rgb(215, 70, 70);
   border-radius: 15px;
-  padding: 5%;
+  padding: 13%;
+  display: block;
 }
 
-/* .cp-failedbox.nonvisible {
-  transform: translateY(150%); 
-  transition: transform 1s ease-in-out;
-  background-color: rgb(171, 8, 8);
-} */
+.cp-failedbox.nonvisible {
+  display: none;
+}
 
 .cp-failedCountBox {
   background-color: rgb(171, 8, 8);
@@ -44,9 +41,6 @@
   margin-bottom: 5%;
 }
 
-.cp-pendingbox {
-  /* height: 5%; */
-  border-radius: 10px;
-  background-color: rgb(61, 84, 59);
-  margin-bottom: 5%;
+.cp-failedCountBox.below {
+  transform: translateY(600%);
 }

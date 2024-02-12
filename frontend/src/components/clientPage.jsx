@@ -9,7 +9,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const WebSocketClient = () => {
   const socketRef = useRef(null);
 
-  const [totprogress, setProgress] = useState("00");
+  const [totprogress, setProgress] = useState(0);
   const [showBar, setShowBar] = useState(false);
   const [showBox, setShowBox] = useState(false);
   const [totalTasks, setTotalTasks] = useState(0);
@@ -23,21 +23,7 @@ const WebSocketClient = () => {
   const location = useLocation();
   const { state } = location;
 
-  // if (!state) {
-  //   console.error("No state received");
-  //   console.log("data recieved", state)
-  //   // Handle the case where state is not present (e.g., direct URL visit)
-  //   return <div>No data received</div>;
-  // }
-
   const { clientName, name, appName } = state;
-
-  useEffect(() => {
-    // Access clientName and use it in your WebSocket logic
-    console.log("Received clientName:", clientName, name, appName);
-
-    // Your WebSocket logic here
-  }, [clientName]);
 
   useEffect(() => {
     // Initialize WebSocket connection
@@ -55,43 +41,47 @@ const WebSocketClient = () => {
       console.log("Error connecting", err);
     });
 
-    // socketRef.current.addEventListener("close", () => {
-    //   console.log("WebServer is closed");
-    // });
+    socketRef.current.addEventListener("close", () => {
+      console.log("WebServer is closed");
+    });
 
     // Listen for messages from the server
     socketRef.current.addEventListener("message", (event) => {
       console.log(`Received from server: ${event.data}`);
-      const prog = Number(
-        String(event.data).substring(event.data.length - 3, event.data.length)
-      );
+      const prog = Number(String(event.data.split(":")[1]));
+      
       if (event.data == "Your Job has failed!") {
         setFailed(true);
         setFailedTasks(failedTasks + 1);
         setTotalTasks(totalTasks - 1);
-        console.log("Check on fail", totalTasks);
         if (totalTasks <= 1) {
-          setShowBox(false);
+          setTimeout(() => {
+            setShowBox(false);
+            setFailed(false);
+          }, 2000);
+          setProgress(0);
         }
       }
-      // console.log("reccc", String(prog));
+
       if (!isNaN(prog)) {
         setTimeout(() => setFailed(false), 2000);
-        setProgress(prog);
+        const tprog = totprogress + prog
+        setProgress(tprog);
+        console.log("CHECKKKK", tprog, prog);
       }
 
       if (prog === 100) {
         if (totalTasks <= 1) {
           setTimeout(() => {
             setShowBar(false);
-            setProgress(0);
+            // setProgress(0);
           }, 1000);
           setShowBox(false);
         }
         setTotalTasks(totalTasks - 1);
       }
 
-      if (prog === 0) setProgress(0);
+      // if (prog === 0) setProgress(0);
     });
 
     // Clean up the WebSocket connection on component unmount
@@ -115,7 +105,6 @@ const WebSocketClient = () => {
       user: name,
       appID: appName,
       totalData: "10",
-      // batchID: idRef,
       batchID: id,
       data: "",
     }));
@@ -156,13 +145,8 @@ const WebSocketClient = () => {
       {showBar && (
         <div className="cp-bottombox">
           {failedTasks > 0 && (
-            <Box className="cp-failedCountBox">
+            <Box className={`cp-failedCountBox ${!showBox ? "below" : ""}`}>
               <h3>{failedTasks} Failed Tasks</h3>
-            </Box>
-          )}
-          {totalTasks > 1 && (
-            <Box className="cp-pendingbox">
-              <h3>{totalTasks - 1} Pending Tasks</h3>
             </Box>
           )}
           {!failed && (
@@ -173,10 +157,12 @@ const WebSocketClient = () => {
                 bgColor={"#3e6296"}
                 completed={totprogress}
               />
+              {/* <p>Tasks in Progress: 1</p> */}
+              <p>Tasks Pending: {totalTasks - 1 >= 0 ? totalTasks - 1 : 0}</p>
             </Box>
           )}
           {failed && (
-            <Box className={`cp-failedbox ${showBox ? "nonvisible" : ""}`}>
+            <Box className={`cp-failedbox ${!showBox ? "nonvisible" : ""}`}>
               <h3>JOB FAILED!</h3>
             </Box>
           )}
