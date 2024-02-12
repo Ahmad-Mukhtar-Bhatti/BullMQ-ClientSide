@@ -9,7 +9,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const WebSocketClient = () => {
   const socketRef = useRef(null);
 
-  const [totprogress, setProgress] = useState(0);
+  const [totprogress, setProgress] = useState("00");
   const [showBar, setShowBar] = useState(false);
   const [showBox, setShowBox] = useState(false);
   const [totalTasks, setTotalTasks] = useState(0);
@@ -49,7 +49,6 @@ const WebSocketClient = () => {
     socketRef.current.addEventListener("message", (event) => {
       console.log(`Received from server: ${event.data}`);
       const prog = Number(String(event.data.split(":")[1]));
-      
       if (event.data == "Your Job has failed!") {
         setFailed(true);
         setFailedTasks(failedTasks + 1);
@@ -65,23 +64,21 @@ const WebSocketClient = () => {
 
       if (!isNaN(prog)) {
         setTimeout(() => setFailed(false), 2000);
-        const tprog = totprogress + prog
-        setProgress(tprog);
-        console.log("CHECKKKK", tprog, prog);
+        setProgress(prog);
       }
 
       if (prog === 100) {
         if (totalTasks <= 1) {
           setTimeout(() => {
             setShowBar(false);
-            // setProgress(0);
+            setProgress(0);
           }, 1000);
           setShowBox(false);
         }
         setTotalTasks(totalTasks - 1);
       }
 
-      // if (prog === 0) setProgress(0);
+      if (prog === 0) setProgress(0);
     });
 
     // Clean up the WebSocket connection on component unmount
