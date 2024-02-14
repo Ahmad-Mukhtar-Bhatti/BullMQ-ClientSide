@@ -75,6 +75,10 @@ npm i
 cd frontend
 npm i
 ```
+```sh
+cd backend
+npm i
+```
 
 ## Usage
 
@@ -227,7 +231,9 @@ In your react application, you only require these two components to be integrate
 
 This file in the backend folder of client side will in real project required to be integrated into your project. The code currently uses express, and if your project doesn't contain express, you'll have to modify it accordingly. 
 
+4. Changing the Ports 
 
+The project is currently running on defined ports with a local redis connection. In order to adjust the code to your project, you need to change the port and endpoint settings in the JSON files in the config folder.
 
 ## Conclusion
 
