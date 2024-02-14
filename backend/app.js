@@ -6,7 +6,7 @@ const { Queue } = require("bullmq");
 const Redis = require("ioredis");
 const logger = require("./logger");
 const error = require("./asyncErrors");
-const config = require("./config/default.json");
+const config = require("config");
 
 const app = express();
 app.use(cors());
@@ -19,11 +19,7 @@ const redisClient = new Redis(config.redis);
 
 logger.info("Inside ReactBackend!");
 
-const queue = new Queue(config.queue, {
-  connection: redisClient,
-  // limiter: { max: 10, duration: 1000 }, // Optional rate limiter configuration
-  concurrency: 5,
-});
+const queue = new Queue(config.queue, { connection: redisClient });
 
 function addData(data) {
   try {
@@ -58,7 +54,7 @@ function addData(data) {
 // POST endpoint to handle data from the React client
 app.post(config.apiGetData, (req, res) => {
   const receivedData = req.body;
-  logger.info("Data received from client:", receivedData.clientId);
+  logger.info(`Data received from client: ${receivedData.clientId}`);
 
   addData(receivedData.tasks, receivedData.clientId);
   // Send a response back to the client

@@ -7,16 +7,7 @@
       "maxRetriesPerRequest": null
     },
   
-    "actions": ["active", "wait", "failed", "completed", "inprogress"],
-    "channels": ["jobFailed", "jobProgress", "jobCompleted"],
-    "range": ["zrange", "lrange"],
-    "rem": ["zrem", "lrem"],
-    "jobFailedMessage": "Your Job has failed!",
-  
-    "delimeter": "_",
-    "webSocketServer": {
-      "port": 3000
-    },
+    
     "clientPort": 3001,
     "apiGetData": "/api/submitData",
     "retryAttempts": 2,
