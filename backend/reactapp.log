@@ -1713,3 +1713,802 @@
 2024-02-14 05:21:08.337 PM info: Taksk ID  asdsasad-0_1707913268337670
 2024-02-14 05:21:08.338 PM info: Taksk ID  asdsasad-0_1707913268338342
 2024-02-14 05:21:08.338 PM info: Taksk ID  asdsasad-0_1707913268338975
+2024-02-19 11:11:03.624 AM info: Inside ReactBackend!
+2024-02-19 11:11:03.633 AM info: Server is running on http://localhost:3001
+2024-02-19 11:21:28.446 AM info: Data received from client: asdaasdsa
+2024-02-19 11:21:34.490 AM info: Data received from client: asdaasdsa
+2024-02-19 11:21:34.493 AM info: Taksk ID  asdaasdsa-0_1708323694493958
+2024-02-19 11:21:34.495 AM info: Taksk ID  asdaasdsa-0_1708323694495318
+2024-02-19 11:21:34.496 AM info: Taksk ID  asdaasdsa-0_1708323694496484
+2024-02-19 11:21:34.499 AM info: Taksk ID  asdaasdsa-0_1708323694498742
+2024-02-19 11:21:34.500 AM info: Taksk ID  asdaasdsa-0_1708323694500368
+2024-02-19 11:21:34.502 AM info: Taksk ID  asdaasdsa-0_1708323694502387
+2024-02-19 11:21:34.503 AM info: Taksk ID  asdaasdsa-0_170832369450319
+2024-02-19 11:21:34.505 AM info: Taksk ID  asdaasdsa-0_1708323694505470
+2024-02-19 11:21:34.506 AM info: Taksk ID  asdaasdsa-0_1708323694506504
+2024-02-19 11:21:34.507 AM info: Taksk ID  asdaasdsa-0_170832369450778
+2024-02-19 11:21:34.793 AM info: Data received from client: asdaasdsa
+2024-02-19 11:21:57.156 AM info: Data received from client: asdasdsf
+2024-02-19 11:21:57.384 AM info: Data received from client: asdasdsf
+2024-02-19 11:21:57.385 AM info: Taksk ID  asdasdsf-0_1708323717385347
+2024-02-19 11:21:57.386 AM info: Taksk ID  asdasdsf-0_1708323717386813
+2024-02-19 11:21:57.386 AM info: Taksk ID  asdasdsf-0_1708323717386731
+2024-02-19 11:21:57.387 AM info: Taksk ID  asdasdsf-0_1708323717387341
+2024-02-19 11:21:57.388 AM info: Taksk ID  asdasdsf-0_1708323717388365
+2024-02-19 11:21:57.389 AM info: Taksk ID  asdasdsf-0_1708323717389610
+2024-02-19 11:21:57.389 AM info: Taksk ID  asdasdsf-0_1708323717389647
+2024-02-19 11:21:57.390 AM info: Taksk ID  asdasdsf-0_1708323717390613
+2024-02-19 11:21:57.393 AM info: Taksk ID  asdasdsf-0_1708323717393475
+2024-02-19 11:21:57.394 AM info: Taksk ID  asdasdsf-0_1708323717394852
+2024-02-19 11:21:57.515 AM info: Data received from client: asdasdsf
+2024-02-19 11:22:10.530 AM info: Data received from client: asdaasdsa
+2024-02-19 11:22:33.166 AM info: Data received from client: asdasdsf
+2024-02-19 11:25:37.983 AM info: Data received from client: asdasdsf
+2024-02-19 11:25:37.984 AM info: Taksk ID  asdasdsf-1_1708323937984737
+2024-02-19 11:25:37.985 AM info: Taksk ID  asdasdsf-1_1708323937985320
+2024-02-19 11:25:37.985 AM info: Taksk ID  asdasdsf-1_1708323937985329
+2024-02-19 11:25:37.986 AM info: Taksk ID  asdasdsf-1_1708323937986665
+2024-02-19 11:25:37.986 AM info: Taksk ID  asdasdsf-1_1708323937986609
+2024-02-19 11:25:37.987 AM info: Taksk ID  asdasdsf-1_1708323937987188
+2024-02-19 11:25:37.988 AM info: Taksk ID  asdasdsf-1_1708323937988474
+2024-02-19 11:25:37.988 AM info: Taksk ID  asdasdsf-1_1708323937988994
+2024-02-19 11:25:37.989 AM info: Taksk ID  asdasdsf-1_1708323937989403
+2024-02-19 11:25:37.989 AM info: Taksk ID  asdasdsf-1_1708323937989320
+2024-02-19 11:25:38.119 AM info: Data received from client: asdasdsf
+2024-02-19 11:25:40.305 AM info: Data received from client: asdaasdsa
+2024-02-19 11:25:40.306 AM info: Taksk ID  asdaasdsa-1_1708323940306440
+2024-02-19 11:25:40.306 AM info: Taksk ID  asdaasdsa-1_1708323940306270
+2024-02-19 11:25:40.307 AM info: Taksk ID  asdaasdsa-1_1708323940307914
+2024-02-19 11:25:40.307 AM info: Taksk ID  asdaasdsa-1_1708323940307946
+2024-02-19 11:25:40.307 AM info: Taksk ID  asdaasdsa-1_1708323940307629
+2024-02-19 11:25:40.308 AM info: Taksk ID  asdaasdsa-1_1708323940308133
+2024-02-19 11:25:40.308 AM info: Taksk ID  asdaasdsa-1_1708323940308332
+2024-02-19 11:25:40.309 AM info: Taksk ID  asdaasdsa-1_1708323940309151
+2024-02-19 11:25:40.309 AM info: Taksk ID  asdaasdsa-1_1708323940309262
+2024-02-19 11:25:40.310 AM info: Taksk ID  asdaasdsa-1_170832394031092
+2024-02-19 11:25:40.375 AM info: Data received from client: asdaasdsa
+2024-02-19 11:26:14.771 AM info: Data received from client: asdasdsf
+2024-02-19 11:26:16.705 AM info: Data received from client: asdaasdsa
+2024-02-19 11:27:23.767 AM info: Data received from client: asdaasdsa
+2024-02-19 11:27:23.767 AM info: Taksk ID  asdaasdsa-2_1708324043767530
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768926
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768380
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768380
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768308
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768432
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768478
+2024-02-19 11:27:23.768 AM info: Taksk ID  asdaasdsa-2_1708324043768796
+2024-02-19 11:27:23.769 AM info: Taksk ID  asdaasdsa-2_1708324043769942
+2024-02-19 11:27:23.769 AM info: Taksk ID  asdaasdsa-2_1708324043769956
+2024-02-19 11:27:23.804 AM info: Data received from client: asdaasdsa
+2024-02-19 11:27:25.554 AM info: Data received from client: asdasdsf
+2024-02-19 11:27:25.555 AM info: Taksk ID  asdasdsf-2_1708324045555706
+2024-02-19 11:27:25.556 AM info: Taksk ID  asdasdsf-2_170832404555692
+2024-02-19 11:27:25.556 AM info: Taksk ID  asdasdsf-2_1708324045556941
+2024-02-19 11:27:25.557 AM info: Taksk ID  asdasdsf-2_170832404555713
+2024-02-19 11:27:25.557 AM info: Taksk ID  asdasdsf-2_1708324045557300
+2024-02-19 11:27:25.558 AM info: Taksk ID  asdasdsf-2_1708324045558989
+2024-02-19 11:27:25.558 AM info: Taksk ID  asdasdsf-2_1708324045558894
+2024-02-19 11:27:25.559 AM info: Taksk ID  asdasdsf-2_1708324045559780
+2024-02-19 11:27:25.559 AM info: Taksk ID  asdasdsf-2_1708324045559839
+2024-02-19 11:27:25.560 AM info: Taksk ID  asdasdsf-2_1708324045560425
+2024-02-19 11:27:25.588 AM info: Data received from client: asdasdsf
+2024-02-19 11:28:10.138 AM info: Data received from client: asdasdsf
+2024-02-19 11:28:12.255 AM info: Data received from client: asdaasdsa
+2024-02-19 11:34:38.446 AM info: Data received from client: asdaasdsa
+2024-02-19 11:34:38.446 AM info: Taksk ID  asdaasdsa-0_17083244784469
+2024-02-19 11:34:38.447 AM info: Taksk ID  asdaasdsa-0_1708324478447396
+2024-02-19 11:34:38.447 AM info: Taksk ID  asdaasdsa-0_1708324478447938
+2024-02-19 11:34:38.447 AM info: Taksk ID  asdaasdsa-0_1708324478447822
+2024-02-19 11:34:38.448 AM info: Taksk ID  asdaasdsa-0_1708324478448518
+2024-02-19 11:34:38.448 AM info: Taksk ID  asdaasdsa-0_1708324478448212
+2024-02-19 11:34:38.448 AM info: Taksk ID  asdaasdsa-0_1708324478448154
+2024-02-19 11:34:38.449 AM info: Taksk ID  asdaasdsa-0_1708324478449757
+2024-02-19 11:34:38.449 AM info: Taksk ID  asdaasdsa-0_1708324478449285
+2024-02-19 11:34:38.449 AM info: Taksk ID  asdaasdsa-0_1708324478449816
+2024-02-19 11:34:38.476 AM info: Data received from client: asdaasdsa
+2024-02-19 11:35:14.683 AM info: Data received from client: asdaasdsa
+2024-02-19 11:36:40.032 AM info: Data received from client: asdaasdsa
+2024-02-19 11:36:40.033 AM info: Taksk ID  asdaasdsa-1_1708324600033330
+2024-02-19 11:36:40.033 AM info: Taksk ID  asdaasdsa-1_1708324600033755
+2024-02-19 11:36:40.034 AM info: Taksk ID  asdaasdsa-1_1708324600034815
+2024-02-19 11:36:40.035 AM info: Taksk ID  asdaasdsa-1_1708324600035591
+2024-02-19 11:36:40.035 AM info: Taksk ID  asdaasdsa-1_1708324600035651
+2024-02-19 11:36:40.036 AM info: Taksk ID  asdaasdsa-1_170832460003656
+2024-02-19 11:36:40.036 AM info: Taksk ID  asdaasdsa-1_1708324600036273
+2024-02-19 11:36:40.037 AM info: Taksk ID  asdaasdsa-1_170832460003738
+2024-02-19 11:36:40.038 AM info: Taksk ID  asdaasdsa-1_1708324600038409
+2024-02-19 11:36:40.040 AM info: Taksk ID  asdaasdsa-1_1708324600040142
+2024-02-19 11:36:40.083 AM info: Data received from client: asdaasdsa
+2024-02-19 11:36:41.845 AM info: Data received from client: asdasdsf
+2024-02-19 11:36:41.845 AM info: Taksk ID  asdasdsf-0_1708324601845700
+2024-02-19 11:36:41.846 AM info: Taksk ID  asdasdsf-0_1708324601846491
+2024-02-19 11:36:41.847 AM info: Taksk ID  asdasdsf-0_1708324601847705
+2024-02-19 11:36:41.848 AM info: Taksk ID  asdasdsf-0_1708324601848319
+2024-02-19 11:36:41.848 AM info: Taksk ID  asdasdsf-0_1708324601848875
+2024-02-19 11:36:41.849 AM info: Taksk ID  asdasdsf-0_1708324601849498
+2024-02-19 11:36:41.849 AM info: Taksk ID  asdasdsf-0_1708324601849340
+2024-02-19 11:36:41.850 AM info: Taksk ID  asdasdsf-0_1708324601850249
+2024-02-19 11:36:41.850 AM info: Taksk ID  asdasdsf-0_1708324601850187
+2024-02-19 11:36:41.850 AM info: Taksk ID  asdasdsf-0_1708324601850467
+2024-02-19 11:36:41.937 AM info: Data received from client: asdasdsf
+2024-02-19 11:37:16.192 AM info: Data received from client: asdaasdsa
+2024-02-19 11:37:18.162 AM info: Data received from client: asdasdsf
+2024-02-19 11:40:31.558 AM info: Data received from client: ahmadets
+2024-02-19 11:48:26.020 AM info: Data received from client: ahmadets
+2024-02-19 11:48:26.503 AM info: Data received from client: ahmadets
+2024-02-19 11:48:26.504 AM info: Taksk ID  ahmadets-0_1708325306504571
+2024-02-19 11:48:26.504 AM info: Taksk ID  ahmadets-0_1708325306504561
+2024-02-19 11:48:26.505 AM info: Taksk ID  ahmadets-0_170832530650511
+2024-02-19 11:48:26.556 AM info: Taksk ID  ahmadets-0_1708325306556934
+2024-02-19 11:48:26.556 AM info: Taksk ID  ahmadets-0_1708325306556537
+2024-02-19 11:48:26.557 AM info: Taksk ID  ahmadets-0_1708325306557976
+2024-02-19 11:48:26.557 AM info: Taksk ID  ahmadets-0_1708325306557581
+2024-02-19 11:48:26.557 AM info: Taksk ID  ahmadets-0_1708325306557920
+2024-02-19 11:48:26.558 AM info: Taksk ID  ahmadets-0_1708325306558314
+2024-02-19 11:48:26.559 AM info: Taksk ID  ahmadets-0_1708325306559556
+2024-02-19 11:48:26.669 AM info: Data received from client: ahmadets
+2024-02-19 11:48:44.916 AM info: Data received from client: ahmadets
+2024-02-19 12:01:46.984 PM info: Data received from client: ahmadets
+2024-02-19 12:01:47.034 PM info: Taksk ID  ahmadets-1_1708326107033986
+2024-02-19 12:01:47.037 PM info: Taksk ID  ahmadets-1_170832610703640
+2024-02-19 12:01:47.096 PM info: Taksk ID  ahmadets-1_1708326107096517
+2024-02-19 12:01:47.097 PM info: Taksk ID  ahmadets-1_1708326107097355
+2024-02-19 12:01:47.115 PM info: Taksk ID  ahmadets-1_1708326107115163
+2024-02-19 12:01:47.212 PM info: Taksk ID  ahmadets-1_1708326107212387
+2024-02-19 12:01:47.213 PM info: Taksk ID  ahmadets-1_170832610721390
+2024-02-19 12:01:47.214 PM info: Taksk ID  ahmadets-1_1708326107214530
+2024-02-19 12:01:47.214 PM info: Taksk ID  ahmadets-1_1708326107214698
+2024-02-19 12:01:47.215 PM info: Taksk ID  ahmadets-1_1708326107215901
+2024-02-19 12:01:47.245 PM info: Data received from client: ahmadets
+2024-02-19 12:01:51.014 PM info: Data received from client: ahmadets
+2024-02-19 12:01:51.018 PM info: Taksk ID  ahmadets-2_1708326111017632
+2024-02-19 12:01:51.021 PM info: Taksk ID  ahmadets-2_1708326111021205
+2024-02-19 12:01:51.027 PM info: Taksk ID  ahmadets-2_1708326111027895
+2024-02-19 12:01:51.033 PM info: Taksk ID  ahmadets-2_1708326111033782
+2024-02-19 12:01:51.038 PM info: Taksk ID  ahmadets-2_1708326111038293
+2024-02-19 12:01:51.039 PM info: Taksk ID  ahmadets-2_1708326111039592
+2024-02-19 12:01:51.046 PM info: Taksk ID  ahmadets-2_1708326111046204
+2024-02-19 12:01:51.049 PM info: Taksk ID  ahmadets-2_1708326111049459
+2024-02-19 12:01:51.053 PM info: Taksk ID  ahmadets-2_1708326111053135
+2024-02-19 12:01:51.056 PM info: Taksk ID  ahmadets-2_1708326111056941
+2024-02-19 12:01:51.101 PM info: Data received from client: ahmadets
+2024-02-19 12:02:02.697 PM info: Data received from client: ahmadets
+2024-02-19 12:02:03.033 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:03.035 PM info: Taksk ID  asdaasdsa-2_170832612303558
+2024-02-19 12:02:03.040 PM info: Taksk ID  asdaasdsa-2_1708326123040736
+2024-02-19 12:02:03.041 PM info: Taksk ID  asdaasdsa-2_1708326123041912
+2024-02-19 12:02:03.043 PM info: Taksk ID  asdaasdsa-2_1708326123043279
+2024-02-19 12:02:03.044 PM info: Taksk ID  asdaasdsa-2_1708326123043123
+2024-02-19 12:02:03.044 PM info: Taksk ID  asdaasdsa-2_1708326123044983
+2024-02-19 12:02:03.048 PM info: Taksk ID  asdaasdsa-2_170832612304842
+2024-02-19 12:02:03.055 PM info: Taksk ID  asdaasdsa-2_1708326123055114
+2024-02-19 12:02:03.056 PM info: Taksk ID  asdaasdsa-2_1708326123056720
+2024-02-19 12:02:03.057 PM info: Taksk ID  asdaasdsa-2_1708326123057446
+2024-02-19 12:02:03.194 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:09.529 PM info: Data received from client: ahmadets
+2024-02-19 12:02:11.757 PM info: Data received from client: ahmadets
+2024-02-19 12:02:11.757 PM info: Taksk ID  ahmadets-3_1708326131757395
+2024-02-19 12:02:11.758 PM info: Taksk ID  ahmadets-3_1708326131758822
+2024-02-19 12:02:11.758 PM info: Taksk ID  ahmadets-3_1708326131758661
+2024-02-19 12:02:11.759 PM info: Taksk ID  ahmadets-3_1708326131759812
+2024-02-19 12:02:11.759 PM info: Taksk ID  ahmadets-3_1708326131759492
+2024-02-19 12:02:11.759 PM info: Taksk ID  ahmadets-3_1708326131759391
+2024-02-19 12:02:11.760 PM info: Taksk ID  ahmadets-3_1708326131760493
+2024-02-19 12:02:11.760 PM info: Taksk ID  ahmadets-3_1708326131760634
+2024-02-19 12:02:11.760 PM info: Taksk ID  ahmadets-3_1708326131760348
+2024-02-19 12:02:11.761 PM info: Taksk ID  ahmadets-3_1708326131761464
+2024-02-19 12:02:11.821 PM info: Data received from client: ahmadets
+2024-02-19 12:02:30.028 PM info: Data received from client: ahmadets
+2024-02-19 12:02:32.901 PM info: Data received from client: ahmadets
+2024-02-19 12:02:32.902 PM info: Taksk ID  ahmadets-4_1708326152902690
+2024-02-19 12:02:32.903 PM info: Taksk ID  ahmadets-4_17083261529032
+2024-02-19 12:02:32.904 PM info: Taksk ID  ahmadets-4_1708326152904595
+2024-02-19 12:02:32.905 PM info: Taksk ID  ahmadets-4_1708326152905812
+2024-02-19 12:02:32.906 PM info: Taksk ID  ahmadets-4_1708326152906681
+2024-02-19 12:02:32.906 PM info: Taksk ID  ahmadets-4_1708326152906820
+2024-02-19 12:02:32.907 PM info: Taksk ID  ahmadets-4_1708326152907584
+2024-02-19 12:02:32.907 PM info: Taksk ID  ahmadets-4_1708326152907445
+2024-02-19 12:02:32.907 PM info: Taksk ID  ahmadets-4_1708326152907734
+2024-02-19 12:02:32.908 PM info: Taksk ID  ahmadets-4_1708326152908381
+2024-02-19 12:02:33.010 PM info: Data received from client: ahmadets
+2024-02-19 12:02:39.209 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:41.473 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:41.474 PM info: Taksk ID  asdaasdsa-3_1708326161474818
+2024-02-19 12:02:41.475 PM info: Taksk ID  asdaasdsa-3_1708326161475513
+2024-02-19 12:02:41.476 PM info: Taksk ID  asdaasdsa-3_1708326161475738
+2024-02-19 12:02:41.476 PM info: Taksk ID  asdaasdsa-3_1708326161476489
+2024-02-19 12:02:41.483 PM info: Taksk ID  asdaasdsa-3_1708326161483717
+2024-02-19 12:02:41.483 PM info: Taksk ID  asdaasdsa-3_1708326161483545
+2024-02-19 12:02:41.484 PM info: Taksk ID  asdaasdsa-3_1708326161484732
+2024-02-19 12:02:41.484 PM info: Taksk ID  asdaasdsa-3_170832616148422
+2024-02-19 12:02:41.485 PM info: Taksk ID  asdaasdsa-3_1708326161485558
+2024-02-19 12:02:41.486 PM info: Taksk ID  asdaasdsa-3_1708326161485276
+2024-02-19 12:02:41.499 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:51.112 PM info: Data received from client: ahmadets
+2024-02-19 12:02:53.581 PM info: Data received from client: ahmadets
+2024-02-19 12:02:53.582 PM info: Taksk ID  ahmadets-5_1708326173582230
+2024-02-19 12:02:53.583 PM info: Taksk ID  ahmadets-5_1708326173583516
+2024-02-19 12:02:53.584 PM info: Taksk ID  ahmadets-5_1708326173584155
+2024-02-19 12:02:53.584 PM info: Taksk ID  ahmadets-5_1708326173584346
+2024-02-19 12:02:53.585 PM info: Taksk ID  ahmadets-5_170832617358526
+2024-02-19 12:02:53.585 PM info: Taksk ID  ahmadets-5_1708326173585650
+2024-02-19 12:02:53.585 PM info: Taksk ID  ahmadets-5_170832617358565
+2024-02-19 12:02:53.687 PM info: Taksk ID  ahmadets-5_1708326173687571
+2024-02-19 12:02:53.687 PM info: Taksk ID  ahmadets-5_1708326173687352
+2024-02-19 12:02:53.688 PM info: Taksk ID  ahmadets-5_1708326173688276
+2024-02-19 12:02:53.782 PM info: Data received from client: ahmadets
+2024-02-19 12:02:55.072 PM info: Data received from client: ahmadets
+2024-02-19 12:02:55.073 PM info: Taksk ID  ahmadets-6_1708326175073113
+2024-02-19 12:02:55.074 PM info: Taksk ID  ahmadets-6_1708326175074571
+2024-02-19 12:02:55.075 PM info: Taksk ID  ahmadets-6_1708326175075526
+2024-02-19 12:02:55.075 PM info: Taksk ID  ahmadets-6_1708326175075431
+2024-02-19 12:02:55.076 PM info: Taksk ID  ahmadets-6_1708326175076163
+2024-02-19 12:02:55.076 PM info: Taksk ID  ahmadets-6_1708326175076712
+2024-02-19 12:02:55.076 PM info: Taksk ID  ahmadets-6_1708326175076161
+2024-02-19 12:02:55.077 PM info: Taksk ID  ahmadets-6_1708326175077538
+2024-02-19 12:02:55.077 PM info: Taksk ID  ahmadets-6_1708326175077589
+2024-02-19 12:02:55.078 PM info: Taksk ID  ahmadets-6_1708326175078205
+2024-02-19 12:02:55.108 PM info: Data received from client: ahmadets
+2024-02-19 12:02:57.930 PM info: Data received from client: asdaasdsa
+2024-02-19 12:02:57.932 PM info: Taksk ID  asdaasdsa-4_1708326177932931
+2024-02-19 12:02:57.932 PM info: Taksk ID  asdaasdsa-4_1708326177932672
+2024-02-19 12:02:58.015 PM info: Taksk ID  asdaasdsa-4_1708326178012381
+2024-02-19 12:02:58.016 PM info: Taksk ID  asdaasdsa-4_1708326178016511
+2024-02-19 12:02:58.017 PM info: Taksk ID  asdaasdsa-4_1708326178017975
+2024-02-19 12:02:58.018 PM info: Taksk ID  asdaasdsa-4_1708326178018777
+2024-02-19 12:02:58.032 PM info: Taksk ID  asdaasdsa-4_1708326178032419
+2024-02-19 12:02:58.032 PM info: Taksk ID  asdaasdsa-4_1708326178032923
+2024-02-19 12:02:58.033 PM info: Taksk ID  asdaasdsa-4_1708326178033985
+2024-02-19 12:02:58.033 PM info: Taksk ID  asdaasdsa-4_1708326178033600
+2024-02-19 12:02:58.057 PM info: Data received from client: asdaasdsa
+2024-02-19 12:03:06.740 PM info: Data received from client: ahmadets
+2024-02-19 12:03:06.771 PM info: Taksk ID  ahmadets-7_1708326186771516
+2024-02-19 12:03:06.772 PM info: Taksk ID  ahmadets-7_1708326186772963
+2024-02-19 12:03:06.774 PM info: Taksk ID  ahmadets-7_1708326186773393
+2024-02-19 12:03:06.775 PM info: Taksk ID  ahmadets-7_1708326186774742
+2024-02-19 12:03:06.776 PM info: Taksk ID  ahmadets-7_1708326186775489
+2024-02-19 12:03:06.776 PM info: Taksk ID  ahmadets-7_1708326186776545
+2024-02-19 12:03:06.795 PM info: Taksk ID  ahmadets-7_1708326186795732
+2024-02-19 12:03:06.801 PM info: Taksk ID  ahmadets-7_1708326186801379
+2024-02-19 12:03:06.802 PM info: Taksk ID  ahmadets-7_1708326186802684
+2024-02-19 12:03:06.803 PM info: Taksk ID  ahmadets-7_1708326186803827
+2024-02-19 12:03:06.923 PM info: Data received from client: ahmadets
+2024-02-19 12:03:11.784 PM info: Data received from client: ahmadets
+2024-02-19 12:03:14.164 PM info: Data received from client: asdaasdsa
+2024-02-19 12:03:23.097 PM info: Data received from client: ahmadets
+2024-02-19 12:04:21.341 PM info: Data received from client: ahmmecng
+2024-02-19 12:04:32.314 PM info: Data received from client: ahmadets
+2024-02-19 12:04:36.749 PM info: Data received from client: ahmadets
+2024-02-19 12:04:36.750 PM info: Taksk ID  ahmadets-0_1708326276750725
+2024-02-19 12:04:36.751 PM info: Taksk ID  ahmadets-0_1708326276751773
+2024-02-19 12:04:36.751 PM info: Taksk ID  ahmadets-0_1708326276751390
+2024-02-19 12:04:36.752 PM info: Taksk ID  ahmadets-0_1708326276752797
+2024-02-19 12:04:36.753 PM info: Taksk ID  ahmadets-0_1708326276753751
+2024-02-19 12:04:36.753 PM info: Taksk ID  ahmadets-0_1708326276753915
+2024-02-19 12:04:36.754 PM info: Taksk ID  ahmadets-0_170832627675415
+2024-02-19 12:04:36.755 PM info: Taksk ID  ahmadets-0_1708326276755497
+2024-02-19 12:04:36.755 PM info: Taksk ID  ahmadets-0_1708326276755824
+2024-02-19 12:04:36.756 PM info: Taksk ID  ahmadets-0_1708326276756254
+2024-02-19 12:04:36.782 PM info: Data received from client: ahmadets
+2024-02-19 12:04:38.457 PM info: Data received from client: ahmmecng
+2024-02-19 12:04:38.458 PM info: Taksk ID  ahmmecng-0_1708326278458380
+2024-02-19 12:04:38.459 PM info: Taksk ID  ahmmecng-0_1708326278459343
+2024-02-19 12:04:38.460 PM info: Taksk ID  ahmmecng-0_1708326278460500
+2024-02-19 12:04:38.460 PM info: Taksk ID  ahmmecng-0_170832627846044
+2024-02-19 12:04:38.460 PM info: Taksk ID  ahmmecng-0_1708326278460968
+2024-02-19 12:04:38.461 PM info: Taksk ID  ahmmecng-0_170832627846128
+2024-02-19 12:04:38.461 PM info: Taksk ID  ahmmecng-0_1708326278461492
+2024-02-19 12:04:38.462 PM info: Taksk ID  ahmmecng-0_1708326278462261
+2024-02-19 12:04:38.462 PM info: Taksk ID  ahmmecng-0_1708326278462544
+2024-02-19 12:04:38.463 PM info: Taksk ID  ahmmecng-0_1708326278463402
+2024-02-19 12:04:38.515 PM info: Data received from client: ahmmecng
+2024-02-19 12:04:55.122 PM info: Data received from client: ahmadets
+2024-02-19 12:04:55.123 PM info: Taksk ID  ahmadets-1_1708326295123106
+2024-02-19 12:04:55.124 PM info: Taksk ID  ahmadets-1_1708326295124949
+2024-02-19 12:04:55.125 PM info: Taksk ID  ahmadets-1_1708326295124897
+2024-02-19 12:04:55.125 PM info: Taksk ID  ahmadets-1_1708326295125323
+2024-02-19 12:04:55.126 PM info: Taksk ID  ahmadets-1_1708326295126125
+2024-02-19 12:04:55.126 PM info: Taksk ID  ahmadets-1_1708326295126251
+2024-02-19 12:04:55.127 PM info: Taksk ID  ahmadets-1_1708326295127443
+2024-02-19 12:04:55.127 PM info: Taksk ID  ahmadets-1_1708326295127133
+2024-02-19 12:04:55.127 PM info: Taksk ID  ahmadets-1_1708326295127724
+2024-02-19 12:04:55.128 PM info: Taksk ID  ahmadets-1_1708326295128510
+2024-02-19 12:04:55.240 PM info: Data received from client: ahmadets
+2024-02-19 12:05:14.779 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:16.061 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:16.062 PM info: Taksk ID  ahmmecng-1_1708326316062271
+2024-02-19 12:05:16.063 PM info: Taksk ID  ahmmecng-1_1708326316063771
+2024-02-19 12:05:16.063 PM info: Taksk ID  ahmmecng-1_1708326316063995
+2024-02-19 12:05:16.064 PM info: Taksk ID  ahmmecng-1_1708326316064617
+2024-02-19 12:05:16.064 PM info: Taksk ID  ahmmecng-1_1708326316064277
+2024-02-19 12:05:16.064 PM info: Taksk ID  ahmmecng-1_1708326316064669
+2024-02-19 12:05:16.065 PM info: Taksk ID  ahmmecng-1_1708326316065354
+2024-02-19 12:05:16.067 PM info: Taksk ID  ahmmecng-1_170832631606710
+2024-02-19 12:05:16.068 PM info: Taksk ID  ahmmecng-1_1708326316068536
+2024-02-19 12:05:16.068 PM info: Taksk ID  ahmmecng-1_1708326316068940
+2024-02-19 12:05:16.142 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:21.058 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:21.058 PM info: Taksk ID  ahmmecng-2_1708326321058824
+2024-02-19 12:05:21.059 PM info: Taksk ID  ahmmecng-2_1708326321059564
+2024-02-19 12:05:21.059 PM info: Taksk ID  ahmmecng-2_1708326321059388
+2024-02-19 12:05:21.059 PM info: Taksk ID  ahmmecng-2_1708326321059249
+2024-02-19 12:05:21.060 PM info: Taksk ID  ahmmecng-2_1708326321060905
+2024-02-19 12:05:21.060 PM info: Taksk ID  ahmmecng-2_1708326321060617
+2024-02-19 12:05:21.060 PM info: Taksk ID  ahmmecng-2_1708326321060342
+2024-02-19 12:05:21.061 PM info: Taksk ID  ahmmecng-2_1708326321061324
+2024-02-19 12:05:21.061 PM info: Taksk ID  ahmmecng-2_1708326321061322
+2024-02-19 12:05:21.062 PM info: Taksk ID  ahmmecng-2_1708326321062508
+2024-02-19 12:05:21.123 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:23.522 PM info: Data received from client: ahmadets
+2024-02-19 12:05:23.522 PM info: Taksk ID  ahmadets-2_1708326323522484
+2024-02-19 12:05:23.523 PM info: Taksk ID  ahmadets-2_1708326323523205
+2024-02-19 12:05:23.523 PM info: Taksk ID  ahmadets-2_1708326323523967
+2024-02-19 12:05:23.523 PM info: Taksk ID  ahmadets-2_170832632352325
+2024-02-19 12:05:23.524 PM info: Taksk ID  ahmadets-2_1708326323524482
+2024-02-19 12:05:23.524 PM info: Taksk ID  ahmadets-2_1708326323524825
+2024-02-19 12:05:23.524 PM info: Taksk ID  ahmadets-2_1708326323524218
+2024-02-19 12:05:23.524 PM info: Taksk ID  ahmadets-2_1708326323524726
+2024-02-19 12:05:23.525 PM info: Taksk ID  ahmadets-2_1708326323525378
+2024-02-19 12:05:23.525 PM info: Taksk ID  ahmadets-2_1708326323525251
+2024-02-19 12:05:23.546 PM info: Data received from client: ahmadets
+2024-02-19 12:05:32.121 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:32.121 PM info: Taksk ID  ahmmecng-3_1708326332121920
+2024-02-19 12:05:32.122 PM info: Taksk ID  ahmmecng-3_1708326332122775
+2024-02-19 12:05:32.122 PM info: Taksk ID  ahmmecng-3_1708326332122480
+2024-02-19 12:05:32.122 PM info: Taksk ID  ahmmecng-3_1708326332122990
+2024-02-19 12:05:32.123 PM info: Taksk ID  ahmmecng-3_1708326332123868
+2024-02-19 12:05:32.129 PM info: Taksk ID  ahmmecng-3_1708326332129815
+2024-02-19 12:05:32.130 PM info: Taksk ID  ahmmecng-3_1708326332130111
+2024-02-19 12:05:32.130 PM info: Taksk ID  ahmmecng-3_1708326332130176
+2024-02-19 12:05:32.131 PM info: Taksk ID  ahmmecng-3_170832633213176
+2024-02-19 12:05:32.131 PM info: Taksk ID  ahmmecng-3_1708326332131145
+2024-02-19 12:05:32.196 PM info: Data received from client: ahmmecng
+2024-02-19 12:05:41.657 PM info: Data received from client: ahmadets
+2024-02-19 12:05:47.325 PM info: Data received from client: ahmmecng
+2024-02-19 12:06:01.400 PM info: Data received from client: ahmmecng
+2024-02-19 12:06:38.289 PM info: Data received from client: ahmadets
+2024-02-19 12:06:40.539 PM info: Data received from client: ahmmecng
+2024-02-19 12:06:41.607 PM info: Data received from client: ahmadets
+2024-02-19 12:06:41.608 PM info: Taksk ID  ahmadets-0_1708326401608393
+2024-02-19 12:06:41.609 PM info: Taksk ID  ahmadets-0_1708326401609534
+2024-02-19 12:06:41.610 PM info: Taksk ID  ahmadets-0_1708326401610352
+2024-02-19 12:06:41.611 PM info: Taksk ID  ahmadets-0_1708326401611588
+2024-02-19 12:06:41.612 PM info: Taksk ID  ahmadets-0_1708326401612832
+2024-02-19 12:06:41.613 PM info: Taksk ID  ahmadets-0_1708326401613604
+2024-02-19 12:06:41.614 PM info: Taksk ID  ahmadets-0_1708326401614242
+2024-02-19 12:06:41.615 PM info: Taksk ID  ahmadets-0_1708326401615571
+2024-02-19 12:06:41.618 PM info: Taksk ID  ahmadets-0_170832640161869
+2024-02-19 12:06:41.620 PM info: Taksk ID  ahmadets-0_170832640161985
+2024-02-19 12:06:41.681 PM info: Data received from client: ahmadets
+2024-02-19 12:06:42.858 PM info: Data received from client: ahmmecng
+2024-02-19 12:06:42.858 PM info: Taksk ID  ahmmecng-0_1708326402858100
+2024-02-19 12:06:42.859 PM info: Taksk ID  ahmmecng-0_1708326402859304
+2024-02-19 12:06:42.860 PM info: Taksk ID  ahmmecng-0_1708326402859378
+2024-02-19 12:06:42.860 PM info: Taksk ID  ahmmecng-0_1708326402860844
+2024-02-19 12:06:42.861 PM info: Taksk ID  ahmmecng-0_1708326402860183
+2024-02-19 12:06:42.861 PM info: Taksk ID  ahmmecng-0_1708326402861980
+2024-02-19 12:06:42.861 PM info: Taksk ID  ahmmecng-0_1708326402861954
+2024-02-19 12:06:42.862 PM info: Taksk ID  ahmmecng-0_1708326402862843
+2024-02-19 12:06:42.862 PM info: Taksk ID  ahmmecng-0_1708326402862499
+2024-02-19 12:06:42.862 PM info: Taksk ID  ahmmecng-0_1708326402862552
+2024-02-19 12:06:42.961 PM info: Data received from client: ahmmecng
+2024-02-19 12:06:55.372 PM info: Data received from client: ahmadets
+2024-02-19 12:06:55.373 PM info: Taksk ID  ahmadets-1_1708326415373485
+2024-02-19 12:06:55.373 PM info: Taksk ID  ahmadets-1_1708326415373600
+2024-02-19 12:06:55.374 PM info: Taksk ID  ahmadets-1_1708326415374979
+2024-02-19 12:06:55.374 PM info: Taksk ID  ahmadets-1_1708326415374524
+2024-02-19 12:06:55.375 PM info: Taksk ID  ahmadets-1_1708326415375363
+2024-02-19 12:06:55.375 PM info: Taksk ID  ahmadets-1_1708326415375846
+2024-02-19 12:06:55.376 PM info: Taksk ID  ahmadets-1_1708326415376209
+2024-02-19 12:06:55.376 PM info: Taksk ID  ahmadets-1_1708326415376929
+2024-02-19 12:06:55.376 PM info: Taksk ID  ahmadets-1_1708326415376378
+2024-02-19 12:06:55.377 PM info: Taksk ID  ahmadets-1_1708326415377359
+2024-02-19 12:06:55.598 PM info: Data received from client: ahmadets
+2024-02-19 12:07:01.151 PM info: Data received from client: ahmmecng
+2024-02-19 12:07:05.629 PM info: Data received from client: ahmmecng
+2024-02-19 12:07:05.630 PM info: Taksk ID  ahmmecng-1_1708326425630985
+2024-02-19 12:07:05.631 PM info: Taksk ID  ahmmecng-1_1708326425631588
+2024-02-19 12:07:05.667 PM info: Taksk ID  ahmmecng-1_170832642566728
+2024-02-19 12:07:05.668 PM info: Taksk ID  ahmmecng-1_1708326425668535
+2024-02-19 12:07:05.669 PM info: Taksk ID  ahmmecng-1_1708326425669844
+2024-02-19 12:07:05.672 PM info: Taksk ID  ahmmecng-1_1708326425670660
+2024-02-19 12:07:05.673 PM info: Taksk ID  ahmmecng-1_1708326425673130
+2024-02-19 12:07:05.676 PM info: Taksk ID  ahmmecng-1_170832642567638
+2024-02-19 12:07:05.676 PM info: Taksk ID  ahmmecng-1_1708326425676471
+2024-02-19 12:07:05.677 PM info: Taksk ID  ahmmecng-1_1708326425677767
+2024-02-19 12:07:05.701 PM info: Data received from client: ahmmecng
+2024-02-19 12:07:08.529 PM info: Data received from client: ahmadets
+2024-02-19 12:07:20.462 PM info: Data received from client: ahmmecng
+2024-02-19 12:07:20.463 PM info: Taksk ID  ahmmecng-2_170832644046361
+2024-02-19 12:07:20.464 PM info: Taksk ID  ahmmecng-2_1708326440464252
+2024-02-19 12:07:20.489 PM info: Taksk ID  ahmmecng-2_170832644046559
+2024-02-19 12:07:20.491 PM info: Taksk ID  ahmmecng-2_170832644049197
+2024-02-19 12:07:20.492 PM info: Taksk ID  ahmmecng-2_1708326440492742
+2024-02-19 12:07:20.493 PM info: Taksk ID  ahmmecng-2_1708326440493566
+2024-02-19 12:07:20.494 PM info: Taksk ID  ahmmecng-2_1708326440494461
+2024-02-19 12:07:20.495 PM info: Taksk ID  ahmmecng-2_1708326440495832
+2024-02-19 12:07:20.501 PM info: Taksk ID  ahmmecng-2_1708326440501309
+2024-02-19 12:07:20.502 PM info: Taksk ID  ahmmecng-2_1708326440502219
+2024-02-19 12:07:20.517 PM info: Data received from client: ahmmecng
+2024-02-19 12:07:34.653 PM info: Data received from client: ahmmecng
+2024-02-19 12:09:33.549 PM info: Data received from client: ahmadets
+2024-02-19 12:09:34.196 PM info: Data received from client: ahmadets
+2024-02-19 12:09:34.197 PM info: Taksk ID  ahmadets-0_1708326574197909
+2024-02-19 12:09:34.198 PM info: Taksk ID  ahmadets-0_1708326574198703
+2024-02-19 12:09:34.199 PM info: Taksk ID  ahmadets-0_1708326574199270
+2024-02-19 12:09:34.199 PM info: Taksk ID  ahmadets-0_1708326574199746
+2024-02-19 12:09:34.200 PM info: Taksk ID  ahmadets-0_1708326574200262
+2024-02-19 12:09:34.200 PM info: Taksk ID  ahmadets-0_1708326574200200
+2024-02-19 12:09:34.201 PM info: Taksk ID  ahmadets-0_1708326574201879
+2024-02-19 12:09:34.202 PM info: Taksk ID  ahmadets-0_1708326574201205
+2024-02-19 12:09:34.202 PM info: Taksk ID  ahmadets-0_1708326574202204
+2024-02-19 12:09:34.203 PM info: Taksk ID  ahmadets-0_1708326574203915
+2024-02-19 12:09:34.335 PM info: Data received from client: ahmadets
+2024-02-19 12:09:52.402 PM info: Data received from client: ahmadets
+2024-02-19 12:09:58.712 PM info: Data received from client: ahmadets
+2024-02-19 12:09:58.713 PM info: Taksk ID  ahmadets-1_1708326598713719
+2024-02-19 12:09:58.715 PM info: Taksk ID  ahmadets-1_170832659871556
+2024-02-19 12:09:58.715 PM info: Taksk ID  ahmadets-1_1708326598715543
+2024-02-19 12:09:58.716 PM info: Taksk ID  ahmadets-1_1708326598716462
+2024-02-19 12:09:58.716 PM info: Taksk ID  ahmadets-1_1708326598716621
+2024-02-19 12:09:58.717 PM info: Taksk ID  ahmadets-1_1708326598717863
+2024-02-19 12:09:58.717 PM info: Taksk ID  ahmadets-1_1708326598717852
+2024-02-19 12:09:58.717 PM info: Taksk ID  ahmadets-1_1708326598717577
+2024-02-19 12:09:58.718 PM info: Taksk ID  ahmadets-1_1708326598718496
+2024-02-19 12:09:58.718 PM info: Taksk ID  ahmadets-1_1708326598718712
+2024-02-19 12:09:58.784 PM info: Data received from client: ahmadets
+2024-02-19 12:10:09.509 PM info: Data received from client: ahmadets
+2024-02-19 12:10:09.580 PM info: Taksk ID  ahmadets-2_1708326609580907
+2024-02-19 12:10:09.580 PM info: Taksk ID  ahmadets-2_1708326609580363
+2024-02-19 12:10:09.580 PM info: Taksk ID  ahmadets-2_1708326609580989
+2024-02-19 12:10:09.580 PM info: Taksk ID  ahmadets-2_1708326609580435
+2024-02-19 12:10:09.581 PM info: Taksk ID  ahmadets-2_1708326609581299
+2024-02-19 12:10:09.581 PM info: Taksk ID  ahmadets-2_1708326609581997
+2024-02-19 12:10:09.581 PM info: Taksk ID  ahmadets-2_17083266095816
+2024-02-19 12:10:09.581 PM info: Taksk ID  ahmadets-2_170832660958155
+2024-02-19 12:10:09.582 PM info: Taksk ID  ahmadets-2_1708326609582815
+2024-02-19 12:10:09.582 PM info: Taksk ID  ahmadets-2_1708326609582966
+2024-02-19 12:10:09.603 PM info: Data received from client: ahmadets
+2024-02-19 12:10:19.687 PM info: Data received from client: ahmadets
+2024-02-19 12:13:10.460 PM info: Data received from client: sdfdssdfdsf
+2024-02-19 12:13:16.424 PM info: Data received from client: sdfdssdfdsf
+2024-02-19 12:13:16.445 PM info: Data received from client: sdfdssdfdsf
+2024-02-19 12:13:16.446 PM info: Taksk ID  sdfdssdfdsf-0_1708326796446953
+2024-02-19 12:13:16.449 PM info: Taksk ID  sdfdssdfdsf-0_1708326796449341
+2024-02-19 12:13:16.452 PM info: Taksk ID  sdfdssdfdsf-0_1708326796451799
+2024-02-19 12:13:16.453 PM info: Taksk ID  sdfdssdfdsf-0_1708326796453356
+2024-02-19 12:13:16.454 PM info: Taksk ID  sdfdssdfdsf-0_1708326796454756
+2024-02-19 12:13:16.454 PM info: Taksk ID  sdfdssdfdsf-0_1708326796454256
+2024-02-19 12:13:16.455 PM info: Taksk ID  sdfdssdfdsf-0_17083267964558
+2024-02-19 12:13:16.455 PM info: Taksk ID  sdfdssdfdsf-0_1708326796455149
+2024-02-19 12:13:16.456 PM info: Taksk ID  sdfdssdfdsf-0_1708326796456302
+2024-02-19 12:13:16.456 PM info: Taksk ID  sdfdssdfdsf-0_1708326796456291
+2024-02-19 12:13:52.730 PM info: Data received from client: sdfdssdfdsf
+2024-02-19 12:15:35.301 PM info: Data received from client: ahmadets
+2024-02-19 12:15:36.366 PM info: Data received from client: ahmadets
+2024-02-19 12:15:36.367 PM info: Taksk ID  ahmadets-0_1708326936367296
+2024-02-19 12:15:36.368 PM info: Taksk ID  ahmadets-0_1708326936368504
+2024-02-19 12:15:36.368 PM info: Taksk ID  ahmadets-0_1708326936368710
+2024-02-19 12:15:36.369 PM info: Taksk ID  ahmadets-0_1708326936369161
+2024-02-19 12:15:36.370 PM info: Taksk ID  ahmadets-0_1708326936370207
+2024-02-19 12:15:36.371 PM info: Taksk ID  ahmadets-0_1708326936371852
+2024-02-19 12:15:36.371 PM info: Taksk ID  ahmadets-0_1708326936371557
+2024-02-19 12:15:36.371 PM info: Taksk ID  ahmadets-0_1708326936371197
+2024-02-19 12:15:36.372 PM info: Taksk ID  ahmadets-0_1708326936372742
+2024-02-19 12:15:36.372 PM info: Taksk ID  ahmadets-0_1708326936372901
+2024-02-19 12:15:36.509 PM info: Data received from client: ahmadets
+2024-02-19 12:16:47.361 PM info: Data received from client: ahmadets
+2024-02-19 12:16:48.122 PM info: Data received from client: ahmadets
+2024-02-19 12:16:48.123 PM info: Taksk ID  ahmadets-0_1708327008122231
+2024-02-19 12:16:48.123 PM info: Taksk ID  ahmadets-0_1708327008123553
+2024-02-19 12:16:48.124 PM info: Taksk ID  ahmadets-0_1708327008124909
+2024-02-19 12:16:48.124 PM info: Taksk ID  ahmadets-0_1708327008124716
+2024-02-19 12:16:48.125 PM info: Taksk ID  ahmadets-0_1708327008125191
+2024-02-19 12:16:48.125 PM info: Taksk ID  ahmadets-0_1708327008125737
+2024-02-19 12:16:48.126 PM info: Taksk ID  ahmadets-0_1708327008126615
+2024-02-19 12:16:48.126 PM info: Taksk ID  ahmadets-0_1708327008126646
+2024-02-19 12:16:48.127 PM info: Taksk ID  ahmadets-0_1708327008127871
+2024-02-19 12:16:48.127 PM info: Taksk ID  ahmadets-0_1708327008127818
+2024-02-19 12:16:48.264 PM info: Data received from client: ahmadets
+2024-02-19 12:20:07.380 PM info: Data received from client: sdfsdasd
+2024-02-19 12:20:07.380 PM info: Taksk ID  sdfsdasd-0_1708327207380273
+2024-02-19 12:20:07.380 PM info: Taksk ID  sdfsdasd-0_1708327207380673
+2024-02-19 12:20:07.380 PM info: Taksk ID  sdfsdasd-0_1708327207380960
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381832
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381481
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381490
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381365
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381473
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_170832720738189
+2024-02-19 12:20:07.381 PM info: Taksk ID  sdfsdasd-0_1708327207381164
+2024-02-19 12:20:07.396 PM info: Data received from client: sdfsdasd
+2024-02-19 12:22:34.577 PM info: Data received from client: ahmadets
+2024-02-19 12:22:35.815 PM info: Data received from client: ahmadets
+2024-02-19 12:22:35.816 PM info: Taksk ID  ahmadets-0_1708327355816119
+2024-02-19 12:22:35.816 PM info: Taksk ID  ahmadets-0_1708327355816816
+2024-02-19 12:22:35.817 PM info: Taksk ID  ahmadets-0_1708327355817729
+2024-02-19 12:22:35.817 PM info: Taksk ID  ahmadets-0_1708327355817854
+2024-02-19 12:22:35.818 PM info: Taksk ID  ahmadets-0_1708327355818873
+2024-02-19 12:22:35.818 PM info: Taksk ID  ahmadets-0_1708327355818263
+2024-02-19 12:22:35.818 PM info: Taksk ID  ahmadets-0_1708327355818645
+2024-02-19 12:22:35.819 PM info: Taksk ID  ahmadets-0_1708327355819214
+2024-02-19 12:22:35.819 PM info: Taksk ID  ahmadets-0_1708327355819196
+2024-02-19 12:22:35.820 PM info: Taksk ID  ahmadets-0_1708327355820971
+2024-02-19 12:22:35.884 PM info: Data received from client: ahmadets
+2024-02-19 12:25:30.587 PM info: Data received from client: AhmadETS
+2024-02-19 12:25:32.826 PM info: Data received from client: AhmadETS
+2024-02-19 12:25:32.826 PM info: Taksk ID  AhmadETS-0_170832753282675
+2024-02-19 12:25:32.827 PM info: Taksk ID  AhmadETS-0_170832753282766
+2024-02-19 12:25:32.827 PM info: Taksk ID  AhmadETS-0_1708327532827361
+2024-02-19 12:25:32.827 PM info: Taksk ID  AhmadETS-0_1708327532827183
+2024-02-19 12:25:32.828 PM info: Taksk ID  AhmadETS-0_1708327532828222
+2024-02-19 12:25:32.828 PM info: Taksk ID  AhmadETS-0_1708327532828868
+2024-02-19 12:25:32.828 PM info: Taksk ID  AhmadETS-0_1708327532828652
+2024-02-19 12:25:32.829 PM info: Taksk ID  AhmadETS-0_1708327532829783
+2024-02-19 12:25:32.829 PM info: Taksk ID  AhmadETS-0_1708327532829210
+2024-02-19 12:25:32.830 PM info: Taksk ID  AhmadETS-0_1708327532830938
+2024-02-19 12:25:32.852 PM info: Data received from client: AhmadETS
+2024-02-19 12:29:16.658 PM info: Data received from client: ahmadets
+2024-02-19 12:29:17.482 PM info: Data received from client: ahmadets
+2024-02-19 12:29:17.483 PM info: Taksk ID  ahmadets-0_1708327757483350
+2024-02-19 12:29:17.484 PM info: Taksk ID  ahmadets-0_1708327757484989
+2024-02-19 12:29:17.484 PM info: Taksk ID  ahmadets-0_1708327757484806
+2024-02-19 12:29:17.486 PM info: Taksk ID  ahmadets-0_1708327757485943
+2024-02-19 12:29:17.486 PM info: Taksk ID  ahmadets-0_170832775748635
+2024-02-19 12:29:17.487 PM info: Taksk ID  ahmadets-0_170832775748792
+2024-02-19 12:29:17.487 PM info: Taksk ID  ahmadets-0_1708327757487488
+2024-02-19 12:29:17.487 PM info: Taksk ID  ahmadets-0_1708327757487850
+2024-02-19 12:29:17.488 PM info: Taksk ID  ahmadets-0_1708327757488856
+2024-02-19 12:29:17.489 PM info: Taksk ID  ahmadets-0_1708327757489333
+2024-02-19 12:29:17.530 PM info: Data received from client: ahmadets
+2024-02-19 12:29:34.571 PM info: Data received from client: ahmadets
+2024-02-19 12:29:34.572 PM info: Taksk ID  ahmadets-1_1708327774572678
+2024-02-19 12:29:34.573 PM info: Taksk ID  ahmadets-1_1708327774573672
+2024-02-19 12:29:34.573 PM info: Taksk ID  ahmadets-1_1708327774573867
+2024-02-19 12:29:34.573 PM info: Taksk ID  ahmadets-1_1708327774573872
+2024-02-19 12:29:34.574 PM info: Taksk ID  ahmadets-1_1708327774574688
+2024-02-19 12:29:34.574 PM info: Taksk ID  ahmadets-1_1708327774574826
+2024-02-19 12:29:34.574 PM info: Taksk ID  ahmadets-1_1708327774574605
+2024-02-19 12:29:34.577 PM info: Taksk ID  ahmadets-1_1708327774577273
+2024-02-19 12:29:34.577 PM info: Taksk ID  ahmadets-1_1708327774577811
+2024-02-19 12:29:34.583 PM info: Taksk ID  ahmadets-1_1708327774583151
+2024-02-19 12:29:34.588 PM info: Data received from client: ahmadets
+2024-02-19 12:29:53.662 PM info: Data received from client: ahmadets
+2024-02-19 12:30:11.829 PM info: Data received from client: ahmadets
+2024-02-19 12:30:56.221 PM info: Data received from client: ahmmecng
+2024-02-19 12:30:56.959 PM info: Data received from client: ahmmecng
+2024-02-19 12:30:56.960 PM info: Taksk ID  ahmmecng-0_1708327856960308
+2024-02-19 12:30:56.961 PM info: Taksk ID  ahmmecng-0_1708327856961645
+2024-02-19 12:30:56.962 PM info: Taksk ID  ahmmecng-0_1708327856961401
+2024-02-19 12:30:56.962 PM info: Taksk ID  ahmmecng-0_1708327856962633
+2024-02-19 12:30:56.963 PM info: Taksk ID  ahmmecng-0_1708327856963821
+2024-02-19 12:30:56.964 PM info: Taksk ID  ahmmecng-0_1708327856964906
+2024-02-19 12:30:56.966 PM info: Taksk ID  ahmmecng-0_1708327856965402
+2024-02-19 12:30:56.969 PM info: Taksk ID  ahmmecng-0_1708327856969553
+2024-02-19 12:30:56.971 PM info: Taksk ID  ahmmecng-0_1708327856971167
+2024-02-19 12:30:56.972 PM info: Taksk ID  ahmmecng-0_1708327856972524
+2024-02-19 12:30:57.030 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:33.240 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:39.777 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:39.777 PM info: Taksk ID  ahmmecng-1_1708327899777714
+2024-02-19 12:31:39.778 PM info: Taksk ID  ahmmecng-1_1708327899778681
+2024-02-19 12:31:39.779 PM info: Taksk ID  ahmmecng-1_1708327899779647
+2024-02-19 12:31:39.779 PM info: Taksk ID  ahmmecng-1_1708327899779931
+2024-02-19 12:31:39.779 PM info: Taksk ID  ahmmecng-1_1708327899779612
+2024-02-19 12:31:39.780 PM info: Taksk ID  ahmmecng-1_1708327899780943
+2024-02-19 12:31:39.780 PM info: Taksk ID  ahmmecng-1_170832789978094
+2024-02-19 12:31:39.781 PM info: Taksk ID  ahmmecng-1_1708327899781815
+2024-02-19 12:31:39.781 PM info: Taksk ID  ahmmecng-1_1708327899781538
+2024-02-19 12:31:39.781 PM info: Taksk ID  ahmmecng-1_1708327899781726
+2024-02-19 12:31:39.812 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:40.274 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:40.276 PM info: Taksk ID  ahmmecng-2_1708327900276163
+2024-02-19 12:31:40.277 PM info: Taksk ID  ahmmecng-2_1708327900277726
+2024-02-19 12:31:40.278 PM info: Taksk ID  ahmmecng-2_1708327900278840
+2024-02-19 12:31:40.279 PM info: Taksk ID  ahmmecng-2_1708327900279517
+2024-02-19 12:31:40.280 PM info: Taksk ID  ahmmecng-2_1708327900280615
+2024-02-19 12:31:40.289 PM info: Taksk ID  ahmmecng-2_1708327900288833
+2024-02-19 12:31:40.290 PM info: Taksk ID  ahmmecng-2_1708327900290933
+2024-02-19 12:31:40.291 PM info: Taksk ID  ahmmecng-2_1708327900291882
+2024-02-19 12:31:40.292 PM info: Taksk ID  ahmmecng-2_1708327900292380
+2024-02-19 12:31:40.297 PM info: Taksk ID  ahmmecng-2_1708327900297984
+2024-02-19 12:31:40.331 PM info: Data received from client: ahmmecng
+2024-02-19 12:31:57.999 PM info: Data received from client: ahmmecng
+2024-02-19 12:32:16.086 PM info: Data received from client: ahmmecng
+2024-02-19 12:37:36.872 PM info: Data received from client: AhmadETS
+2024-02-19 12:37:37.677 PM info: Data received from client: AhmadETS
+2024-02-19 12:37:37.677 PM info: Taksk ID  AhmadETS-0_1708328257677670
+2024-02-19 12:37:37.678 PM info: Taksk ID  AhmadETS-0_1708328257678182
+2024-02-19 12:37:37.679 PM info: Taksk ID  AhmadETS-0_1708328257678309
+2024-02-19 12:37:37.679 PM info: Taksk ID  AhmadETS-0_1708328257679654
+2024-02-19 12:37:37.680 PM info: Taksk ID  AhmadETS-0_1708328257680222
+2024-02-19 12:37:37.681 PM info: Taksk ID  AhmadETS-0_1708328257681862
+2024-02-19 12:37:37.681 PM info: Taksk ID  AhmadETS-0_1708328257681121
+2024-02-19 12:37:37.682 PM info: Taksk ID  AhmadETS-0_1708328257682783
+2024-02-19 12:37:37.683 PM info: Taksk ID  AhmadETS-0_170832825768247
+2024-02-19 12:37:37.683 PM info: Taksk ID  AhmadETS-0_170832825768310
+2024-02-19 12:37:37.814 PM info: Data received from client: AhmadETS
+2024-02-19 12:37:49.958 PM info: Data received from client: AhmadETS
+2024-02-19 12:37:49.960 PM info: Taksk ID  AhmadETS-1_170832826996062
+2024-02-19 12:37:49.962 PM info: Taksk ID  AhmadETS-1_1708328269962533
+2024-02-19 12:37:49.966 PM info: Taksk ID  AhmadETS-1_1708328269966293
+2024-02-19 12:37:49.969 PM info: Taksk ID  AhmadETS-1_1708328269969621
+2024-02-19 12:37:49.970 PM info: Taksk ID  AhmadETS-1_1708328269970280
+2024-02-19 12:37:49.971 PM info: Taksk ID  AhmadETS-1_1708328269970948
+2024-02-19 12:37:49.972 PM info: Taksk ID  AhmadETS-1_1708328269972662
+2024-02-19 12:37:49.973 PM info: Taksk ID  AhmadETS-1_1708328269973166
+2024-02-19 12:37:49.975 PM info: Taksk ID  AhmadETS-1_1708328269975898
+2024-02-19 12:37:49.976 PM info: Taksk ID  AhmadETS-1_1708328269976409
+2024-02-19 12:37:50.090 PM info: Data received from client: AhmadETS
+2024-02-19 12:38:11.843 PM info: Data received from client: AhmadETS
+2024-02-19 12:39:43.223 PM info: Data received from client: AhmadETS
+2024-02-19 12:39:44.897 PM info: Data received from client: AhmadETS
+2024-02-19 12:39:44.899 PM info: Taksk ID  AhmadETS-0_1708328384899202
+2024-02-19 12:39:44.900 PM info: Taksk ID  AhmadETS-0_1708328384900435
+2024-02-19 12:39:44.900 PM info: Taksk ID  AhmadETS-0_1708328384900297
+2024-02-19 12:39:44.901 PM info: Taksk ID  AhmadETS-0_1708328384901136
+2024-02-19 12:39:44.902 PM info: Taksk ID  AhmadETS-0_1708328384902812
+2024-02-19 12:39:44.902 PM info: Taksk ID  AhmadETS-0_1708328384902915
+2024-02-19 12:39:44.903 PM info: Taksk ID  AhmadETS-0_170832838490343
+2024-02-19 12:39:44.904 PM info: Taksk ID  AhmadETS-0_1708328384904111
+2024-02-19 12:39:44.904 PM info: Taksk ID  AhmadETS-0_1708328384904477
+2024-02-19 12:39:44.905 PM info: Taksk ID  AhmadETS-0_1708328384905546
+2024-02-19 12:39:45.068 PM info: Data received from client: AhmadETS
+2024-02-19 12:39:58.494 PM info: Data received from client: AhmadETS
+2024-02-19 12:39:58.496 PM info: Taksk ID  AhmadETS-1_1708328398496898
+2024-02-19 12:39:58.497 PM info: Taksk ID  AhmadETS-1_1708328398497334
+2024-02-19 12:39:58.497 PM info: Taksk ID  AhmadETS-1_1708328398497606
+2024-02-19 12:39:58.498 PM info: Taksk ID  AhmadETS-1_1708328398498853
+2024-02-19 12:39:58.498 PM info: Taksk ID  AhmadETS-1_170832839849849
+2024-02-19 12:39:58.499 PM info: Taksk ID  AhmadETS-1_170832839849964
+2024-02-19 12:39:58.499 PM info: Taksk ID  AhmadETS-1_1708328398499716
+2024-02-19 12:39:58.499 PM info: Taksk ID  AhmadETS-1_1708328398499650
+2024-02-19 12:39:58.500 PM info: Taksk ID  AhmadETS-1_1708328398500377
+2024-02-19 12:39:58.500 PM info: Taksk ID  AhmadETS-1_1708328398500325
+2024-02-19 12:39:58.528 PM info: Data received from client: AhmadETS
+2024-02-19 12:40:13.748 PM info: Data received from client: AhmadETS
+2024-02-19 12:40:13.749 PM info: Taksk ID  AhmadETS-2_1708328413749943
+2024-02-19 12:40:13.749 PM info: Taksk ID  AhmadETS-2_1708328413749897
+2024-02-19 12:40:13.750 PM info: Taksk ID  AhmadETS-2_1708328413750235
+2024-02-19 12:40:13.751 PM info: Taksk ID  AhmadETS-2_1708328413751108
+2024-02-19 12:40:13.751 PM info: Taksk ID  AhmadETS-2_1708328413751633
+2024-02-19 12:40:13.752 PM info: Taksk ID  AhmadETS-2_1708328413752770
+2024-02-19 12:40:13.753 PM info: Taksk ID  AhmadETS-2_1708328413753893
+2024-02-19 12:40:13.753 PM info: Taksk ID  AhmadETS-2_1708328413753946
+2024-02-19 12:40:13.754 PM info: Taksk ID  AhmadETS-2_1708328413754910
+2024-02-19 12:40:13.755 PM info: Taksk ID  AhmadETS-2_1708328413755933
+2024-02-19 12:40:14.003 PM info: Data received from client: AhmadETS
+2024-02-19 12:40:49.855 PM info: Data received from client: AhmadETS
+2024-02-19 12:41:21.915 PM info: Data received from client: AhmadETS
+2024-02-19 12:42:48.637 PM info: Data received from client: AhmadECNG
+2024-02-19 12:42:49.616 PM info: Data received from client: AhmadECNG
+2024-02-19 12:42:49.619 PM info: Taksk ID  AhmadECNG-0_1708328569619714
+2024-02-19 12:42:49.619 PM info: Taksk ID  AhmadECNG-0_1708328569619424
+2024-02-19 12:42:49.620 PM info: Taksk ID  AhmadECNG-0_170832856962056
+2024-02-19 12:42:49.620 PM info: Taksk ID  AhmadECNG-0_170832856962062
+2024-02-19 12:42:49.621 PM info: Taksk ID  AhmadECNG-0_1708328569620569
+2024-02-19 12:42:49.621 PM info: Taksk ID  AhmadECNG-0_1708328569621581
+2024-02-19 12:42:49.621 PM info: Taksk ID  AhmadECNG-0_1708328569621256
+2024-02-19 12:42:49.622 PM info: Taksk ID  AhmadECNG-0_1708328569622126
+2024-02-19 12:42:49.629 PM info: Taksk ID  AhmadECNG-0_1708328569622192
+2024-02-19 12:42:49.636 PM info: Taksk ID  AhmadECNG-0_1708328569636112
+2024-02-19 12:42:49.656 PM info: Data received from client: AhmadECNG
+2024-02-19 12:43:01.214 PM info: Data received from client: AhmadECNG
+2024-02-19 12:43:01.215 PM info: Taksk ID  AhmadECNG-1_1708328581215678
+2024-02-19 12:43:01.216 PM info: Taksk ID  AhmadECNG-1_1708328581216610
+2024-02-19 12:43:01.219 PM info: Taksk ID  AhmadECNG-1_1708328581219857
+2024-02-19 12:43:01.220 PM info: Taksk ID  AhmadECNG-1_1708328581220894
+2024-02-19 12:43:01.220 PM info: Taksk ID  AhmadECNG-1_170832858122061
+2024-02-19 12:43:01.220 PM info: Taksk ID  AhmadECNG-1_170832858122099
+2024-02-19 12:43:01.221 PM info: Taksk ID  AhmadECNG-1_1708328581221841
+2024-02-19 12:43:01.221 PM info: Taksk ID  AhmadECNG-1_1708328581221600
+2024-02-19 12:43:01.222 PM info: Taksk ID  AhmadECNG-1_1708328581222585
+2024-02-19 12:43:01.222 PM info: Taksk ID  AhmadECNG-1_1708328581222552
+2024-02-19 12:43:01.254 PM info: Data received from client: AhmadECNG
+2024-02-19 12:43:40.956 PM info: Data received from client: AhmadECNG
+2024-02-19 12:44:19.909 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:10.624 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:10.625 PM info: Taksk ID  AhmadECNG-2_1708328710625753
+2024-02-19 12:45:10.625 PM info: Taksk ID  AhmadECNG-2_1708328710625522
+2024-02-19 12:45:10.626 PM info: Taksk ID  AhmadECNG-2_1708328710626258
+2024-02-19 12:45:10.626 PM info: Taksk ID  AhmadECNG-2_1708328710626490
+2024-02-19 12:45:10.627 PM info: Taksk ID  AhmadECNG-2_1708328710627112
+2024-02-19 12:45:10.627 PM info: Taksk ID  AhmadECNG-2_1708328710627124
+2024-02-19 12:45:10.628 PM info: Taksk ID  AhmadECNG-2_170832871062868
+2024-02-19 12:45:10.629 PM info: Taksk ID  AhmadECNG-2_1708328710629869
+2024-02-19 12:45:10.629 PM info: Taksk ID  AhmadECNG-2_1708328710629141
+2024-02-19 12:45:10.630 PM info: Taksk ID  AhmadECNG-2_1708328710630780
+2024-02-19 12:45:10.668 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:24.864 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:24.871 PM info: Taksk ID  AhmadECNG-3_1708328724871930
+2024-02-19 12:45:24.872 PM info: Taksk ID  AhmadECNG-3_1708328724872835
+2024-02-19 12:45:24.872 PM info: Taksk ID  AhmadECNG-3_1708328724872963
+2024-02-19 12:45:24.873 PM info: Taksk ID  AhmadECNG-3_1708328724873648
+2024-02-19 12:45:24.873 PM info: Taksk ID  AhmadECNG-3_1708328724873486
+2024-02-19 12:45:24.873 PM info: Taksk ID  AhmadECNG-3_1708328724873374
+2024-02-19 12:45:24.874 PM info: Taksk ID  AhmadECNG-3_170832872487493
+2024-02-19 12:45:24.874 PM info: Taksk ID  AhmadECNG-3_1708328724874351
+2024-02-19 12:45:24.875 PM info: Taksk ID  AhmadECNG-3_1708328724875361
+2024-02-19 12:45:24.875 PM info: Taksk ID  AhmadECNG-3_1708328724875393
+2024-02-19 12:45:24.906 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:40.143 PM info: Data received from client: AhmadECNG
+2024-02-19 12:45:58.182 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:28.341 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:28.342 PM info: Taksk ID  AhmadECNG-4_1708328788342251
+2024-02-19 12:46:28.343 PM info: Taksk ID  AhmadECNG-4_1708328788343578
+2024-02-19 12:46:28.343 PM info: Taksk ID  AhmadECNG-4_1708328788343490
+2024-02-19 12:46:28.344 PM info: Taksk ID  AhmadECNG-4_17083287883447
+2024-02-19 12:46:28.344 PM info: Taksk ID  AhmadECNG-4_1708328788344177
+2024-02-19 12:46:28.345 PM info: Taksk ID  AhmadECNG-4_1708328788345815
+2024-02-19 12:46:28.345 PM info: Taksk ID  AhmadECNG-4_170832878834539
+2024-02-19 12:46:28.345 PM info: Taksk ID  AhmadECNG-4_1708328788345819
+2024-02-19 12:46:28.346 PM info: Taksk ID  AhmadECNG-4_1708328788346969
+2024-02-19 12:46:28.346 PM info: Taksk ID  AhmadECNG-4_1708328788346494
+2024-02-19 12:46:28.391 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:31.215 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:31.216 PM info: Taksk ID  AhmadECNG-5_1708328791216917
+2024-02-19 12:46:31.217 PM info: Taksk ID  AhmadECNG-5_1708328791217692
+2024-02-19 12:46:31.217 PM info: Taksk ID  AhmadECNG-5_1708328791217254
+2024-02-19 12:46:31.217 PM info: Taksk ID  AhmadECNG-5_1708328791217292
+2024-02-19 12:46:31.218 PM info: Taksk ID  AhmadECNG-5_1708328791218588
+2024-02-19 12:46:31.220 PM info: Taksk ID  AhmadECNG-5_170832879122061
+2024-02-19 12:46:31.221 PM info: Taksk ID  AhmadECNG-5_1708328791220723
+2024-02-19 12:46:31.225 PM info: Taksk ID  AhmadECNG-5_1708328791225501
+2024-02-19 12:46:31.227 PM info: Taksk ID  AhmadECNG-5_1708328791227156
+2024-02-19 12:46:31.228 PM info: Taksk ID  AhmadECNG-5_1708328791228351
+2024-02-19 12:46:31.242 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:43.408 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:49.435 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:50.930 PM info: Data received from client: AhmadECNG
+2024-02-19 12:46:50.931 PM info: Taksk ID  AhmadECNG-6_1708328810930131
+2024-02-19 12:46:50.931 PM info: Taksk ID  AhmadECNG-6_1708328810931732
+2024-02-19 12:46:50.932 PM info: Taksk ID  AhmadECNG-6_1708328810932116
+2024-02-19 12:46:50.932 PM info: Taksk ID  AhmadECNG-6_1708328810932181
+2024-02-19 12:46:50.933 PM info: Taksk ID  AhmadECNG-6_1708328810933941
+2024-02-19 12:46:50.933 PM info: Taksk ID  AhmadECNG-6_1708328810933226
+2024-02-19 12:46:50.934 PM info: Taksk ID  AhmadECNG-6_1708328810934615
+2024-02-19 12:46:50.934 PM info: Taksk ID  AhmadECNG-6_1708328810934595
+2024-02-19 12:46:50.935 PM info: Taksk ID  AhmadECNG-6_1708328810935967
+2024-02-19 12:46:50.935 PM info: Taksk ID  AhmadECNG-6_170832881093583
+2024-02-19 12:46:50.957 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:01.431 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:01.432 PM info: Taksk ID  AhmadECNG-7_170832882143211
+2024-02-19 12:47:01.434 PM info: Taksk ID  AhmadECNG-7_1708328821434478
+2024-02-19 12:47:01.436 PM info: Taksk ID  AhmadECNG-7_1708328821436189
+2024-02-19 12:47:01.437 PM info: Taksk ID  AhmadECNG-7_1708328821437438
+2024-02-19 12:47:01.437 PM info: Taksk ID  AhmadECNG-7_1708328821437911
+2024-02-19 12:47:01.438 PM info: Taksk ID  AhmadECNG-7_1708328821438764
+2024-02-19 12:47:01.438 PM info: Taksk ID  AhmadECNG-7_1708328821438751
+2024-02-19 12:47:01.439 PM info: Taksk ID  AhmadECNG-7_1708328821439808
+2024-02-19 12:47:01.439 PM info: Taksk ID  AhmadECNG-7_1708328821439520
+2024-02-19 12:47:01.440 PM info: Taksk ID  AhmadECNG-7_1708328821440529
+2024-02-19 12:47:01.505 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:03.516 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:03.517 PM info: Taksk ID  AhmadECNG-8_1708328823517302
+2024-02-19 12:47:03.517 PM info: Taksk ID  AhmadECNG-8_1708328823517377
+2024-02-19 12:47:03.518 PM info: Taksk ID  AhmadECNG-8_1708328823518156
+2024-02-19 12:47:03.518 PM info: Taksk ID  AhmadECNG-8_1708328823518618
+2024-02-19 12:47:03.519 PM info: Taksk ID  AhmadECNG-8_1708328823519823
+2024-02-19 12:47:03.519 PM info: Taksk ID  AhmadECNG-8_1708328823519518
+2024-02-19 12:47:03.520 PM info: Taksk ID  AhmadECNG-8_1708328823520928
+2024-02-19 12:47:03.520 PM info: Taksk ID  AhmadECNG-8_1708328823520909
+2024-02-19 12:47:03.521 PM info: Taksk ID  AhmadECNG-8_1708328823521815
+2024-02-19 12:47:03.521 PM info: Taksk ID  AhmadECNG-8_1708328823521410
+2024-02-19 12:47:03.587 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:04.534 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:04.535 PM info: Taksk ID  AhmadECNG-9_1708328824535644
+2024-02-19 12:47:04.536 PM info: Taksk ID  AhmadECNG-9_1708328824536774
+2024-02-19 12:47:04.536 PM info: Taksk ID  AhmadECNG-9_1708328824536782
+2024-02-19 12:47:04.537 PM info: Taksk ID  AhmadECNG-9_1708328824537721
+2024-02-19 12:47:04.537 PM info: Taksk ID  AhmadECNG-9_1708328824537852
+2024-02-19 12:47:04.538 PM info: Taksk ID  AhmadECNG-9_1708328824538547
+2024-02-19 12:47:04.538 PM info: Taksk ID  AhmadECNG-9_1708328824538982
+2024-02-19 12:47:04.539 PM info: Taksk ID  AhmadECNG-9_1708328824538798
+2024-02-19 12:47:04.539 PM info: Taksk ID  AhmadECNG-9_1708328824539175
+2024-02-19 12:47:04.539 PM info: Taksk ID  AhmadECNG-9_1708328824539766
+2024-02-19 12:47:04.608 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:09.136 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:14.749 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:18.589 PM info: Data received from client: AhmadECNG
+2024-02-19 12:47:22.748 PM info: Data received from client: AhmadECNG

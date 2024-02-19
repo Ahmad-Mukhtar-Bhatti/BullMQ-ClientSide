@@ -10,6 +10,7 @@
     
     "clientPort": 3001,
     "apiGetData": "/api/submitData",
+    "apiQueueCreate": "/api/queueCreation",
     "retryAttempts": 2,
     "level":"info",
     "filename":"app.log"

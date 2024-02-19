@@ -8,7 +8,6 @@ const logger = require("./logger");
 const error = require("./asyncErrors");
 const config = require("config");
 
-
 const app = express();
 app.use(cors());
 
@@ -20,9 +19,7 @@ const redisClient = new Redis(config.redis);
 
 logger.info("Inside ReactBackend!");
 
-const queue = new Queue(config.queue, { connection: redisClient });
-
-function addData(data) {
+async function addData(data, clientId, queue) {
   try {
     data.forEach(async (task) => {
       const timestamp = new Date().getTime();
@@ -37,15 +34,11 @@ function addData(data) {
         totalData: task.totalData,
       };
 
-      await queue.add(
-        taskObj.name,
-        taskObj.data,
-        {
-          jobId: taskObj.id,
-          totalData: taskObj.totalData,
-        },
-        { attempts: config.retryAttempts }
-      );
+      await queue.add(taskObj.name, taskObj.data, {
+        jobId: taskObj.id,
+        totalData: taskObj.totalData,
+        attempts: config.retryAttempts,
+      });
     });
   } catch (error) {
     logger.error("Error processing message:", error);
@@ -56,10 +49,22 @@ function addData(data) {
 app.post(config.apiGetData, (req, res) => {
   const receivedData = req.body;
   logger.info(`Data received from client: ${receivedData.clientId}`);
-
-  addData(receivedData.tasks, receivedData.clientId);
+  const queue = new Queue(config.queue + receivedData.clientId, {
+    connection: redisClient,
+  });
+  addData(receivedData.tasks, receivedData.clientId, queue);
   // Send a response back to the client
-  res.json({ message: "Data received successfully!" });
+  res.json({ message: queue.name });
+});
+
+app.post(config.apiQueueCreate, (req, res) => {
+  const receivedData = req.body;
+  logger.info(`Data received from client: ${receivedData.clientId}`);
+  const queue = new Queue(config.queue + receivedData.clientId, {
+    connection: redisClient,
+  });
+  // Send a response back to the client
+  res.json({ message: queue.name });
 });
 
 app.use(error);

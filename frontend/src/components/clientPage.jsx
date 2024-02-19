@@ -35,6 +35,21 @@ const WebSocketClient = () => {
     // Connection opened
     socketRef.current.addEventListener("open", () => {
       console.log("Connected to server");
+      async function newClient() {
+        try {
+          // Replace 'YOUR_BACKEND_API_ENDPOINT' with your actual backend API endpoint
+          const response = await axios.post(
+            "http://localhost:3001/api/queueCreation",
+            { clientId: clientName }
+          );
+          // Handle the response if needed
+          console.log("Response from backend:", response.data);
+        } catch (error) {
+          // Handle errors
+          console.error("Error sending data to backend:", error);
+        }
+      }
+      newClient();
     });
 
     socketRef.current.addEventListener("error", (err) => {
