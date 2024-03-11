@@ -1,0 +1,141 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+.demo-oracle-icon {
+  width: 137px;
+  height: 18px;
+}
+
+.demo-oracle-icon:before {
+  content: url("images/oracle_logo.svg");
+}
+
+html:not([dir="rtl"]) .demo-oracle-icon {
+  padding-right: 4px;
+}
+
+html[dir="rtl"] .demo-oracle-icon {
+  padding-left: 4px;
+}
+
+.demo-oracle-icon:before {
+  display: inline;
+}
+
+.demo-appheader-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.demo-appheader-avatar:before {
+  content: url("images/avatar_24px.png");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  (min-resolution: 1.5dppx) {
+  .demo-appheader-avatar:before {
+    content: url("images/avatar_24px_2x.png");
+    -webkit-transform: translate(-25%, -25%) scale(0.5);
+    transform: translate(-25%, -25%) scale(0.5);
+  }
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cp-bottombox {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 30%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+
+.cp-progress {
+  height: auto;
+  border-radius: 15px;
+  background-color: rgb(187, 215, 172);
+  padding: 4%;
+  padding-top: 1%;
+
+  transform: translateY(150%); /* Initially off-screen */
+  transition: transform 1s ease-in-out;
+}
+.cp-progress.visible {
+  transform: translateY(0); /* Slides up to the visible position */
+}
+
+.cp-progressbar {
+  border: 3px rgb(44, 43, 43);
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+.cp-failedbox {
+  background-color: rgb(215, 70, 70);
+  border-radius: 15px;
+  padding: 13%;
+  display: block;
+}
+
+.cp-failedbox.nonvisible {
+  display: none;
+}
+
+.cp-failedCountBox {
+  background-color: rgb(171, 8, 8);
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.cp-failedCountBox.below {
+  transform: translateY(700%);
+}
