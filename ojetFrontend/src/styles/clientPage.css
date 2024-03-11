@@ -1,0 +1,48 @@
+.cp-bottombox {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 30%;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .cp-progress {
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(105, 156, 113);
+    padding: 4%;
+    padding-top: 1%;
+  
+    transform: translateY(150%); /* Initially off-screen */
+    transition: transform 1s ease-in-out;
+  }
+  .cp-progress.visible {
+    transform: translateY(0); /* Slides up to the visible position */
+  }
+  
+  .cp-progressbar {
+    border: 3px rgb(44, 43, 43);
+  }
+  
+  .cp-failedbox {
+    background-color: rgb(215, 70, 70);
+    border-radius: 15px;
+    padding: 13%;
+    display: block;
+  }
+  
+  .cp-failedbox.nonvisible {
+    display: none;
+  }
+  
+  .cp-failedCountBox {
+    background-color: rgb(171, 8, 8);
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+  
+  .cp-failedCountBox.below {
+    transform: translateY(600%);
+  }
+  
+  
